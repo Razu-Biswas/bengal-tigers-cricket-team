@@ -12,6 +12,7 @@
 }
 .player-style{
     color:rgb(124, 113, 11);
+    margin-top:10px;
 }
 .player-details img{
     border: 2px solid gray;

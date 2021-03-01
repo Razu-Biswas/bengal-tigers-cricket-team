@@ -11,6 +11,8 @@
     text-align:left;
     padding-left: 20px;
    
-    
-  
+}
+.players-details{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }

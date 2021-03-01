@@ -17,18 +17,17 @@ const Players = () => {
         setAdded([...added,add])
     }
     return (
-        <div >
+        <div  className="players-details">
+            <div className="players">
+                 {
+                    players.map((player)=> <PlayersDetails player={player} add={addedPlayer}></PlayersDetails>)
+                 }
+            </div>
 
             <div className="summary-area">
                {
                  <PlayersSummary playersSummary={added}></PlayersSummary>
                 }               
-            </div>
-
-            <div className="players">
-                 {
-                    players.map((player)=> <PlayersDetails player={player} add={addedPlayer}></PlayersDetails>)
-                 }
             </div>
             
         </div>

@@ -19,9 +19,9 @@ const PlayersSummary = (props) => {
             </div>
             
           {
-             <div>
-                <h3>Total Players: {props.playersSummary.length} </h3>
-                <h2>Total Budget: $ {props.playersSummary.reduce((total, salary) => total + salary.salary, 0)}</h2>
+             <div className="total-budget">
+                <h4>Total Players: {props.playersSummary.length} </h4>
+                <h3>Total Cost: $ {props.playersSummary.reduce((total, salary) => total + salary.salary, 0)}</h3>
             </div>
           }
 
