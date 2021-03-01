@@ -20,7 +20,7 @@ const PlayersDetails = (props) => {
            <div className="player-style">
                  <h4>Name: {name}</h4>
                 <h5>Country: {country} </h5>
-                 <h5>Salary: {salary}</h5>
+                 <h5>Salary: $ {salary}</h5>
                  {/* use fontawesome button icon (for extra bonus marks) */}
                  <button
                    className="button"  
