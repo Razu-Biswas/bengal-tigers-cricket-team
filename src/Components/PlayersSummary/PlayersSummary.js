@@ -10,8 +10,8 @@ const PlayersSummary = (props) => {
                   {
                     props.playersSummary.map((added) => (
                      <div className="summary">
-                         <h4>Name: {added.name}</h4>
-                         <h5>Salary: $ {added.salary}</h5>
+                         <h6>Name: {added.name}</h6>
+                         <h6>Salary: $ {added.salary}</h6>
                      </div>))
                   }
 

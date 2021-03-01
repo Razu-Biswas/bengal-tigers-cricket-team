@@ -11,16 +11,18 @@ import { faCoffee, faUserPlus } from '@fortawesome/free-solid-svg-icons';
 
 
 const PlayersDetails = (props) => {
-    const {name, salary, country, image} = props.player;
+    const {name, salary, country, image, email, gender} = props.player;
     return (
         <div className="player-details">
             <div>
                 <img src={image} alt="..."/> 
             </div>
            <div>
-                 <h5>Name: {name}</h5>
-                 <hp>Country: {country} </hp>
-                 <h6>Salary: $ {salary}</h6>
+                 <h5> {name}</h5>
+                 <h6>{gender}</h6>
+                 <p>{email}</p>
+                 <h6> {country} </h6>
+                 <h6> $ {salary}</h6>
                  {/* use fontawesome button icon (for extra bonus marks) */}
                  <button
                    className="button"  
