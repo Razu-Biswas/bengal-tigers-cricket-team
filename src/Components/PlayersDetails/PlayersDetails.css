@@ -1,0 +1,10 @@
+.player-details{
+    border: 1 px solid gray;
+}
+.button{
+    background-color:rgb(88, 4, 88);
+    color: white;
+    border-radius: 10px;
+    width: 120px;
+    
+}
