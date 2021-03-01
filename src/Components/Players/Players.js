@@ -19,7 +19,7 @@ const Players = () => {
             setAdded([...added,add])
         }
         else{
-            alert("Player Alredy Added, Please Select different Player.")
+            alert("Player Already Added")
         }
         
     }
