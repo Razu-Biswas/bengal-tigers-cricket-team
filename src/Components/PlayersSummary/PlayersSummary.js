@@ -12,7 +12,7 @@ const PlayersSummary = (props) => {
                     props.playersSummary.map((added) => (
                      <div className="summary">
                          <h4>Name: {added.name}</h4>
-                         <h5>Salary: {added.salary}</h5>
+                         <h5>Salary: $ {added.salary}</h5>
                      </div>))
                   }
 
@@ -21,7 +21,7 @@ const PlayersSummary = (props) => {
           {
              <div>
                 <h3>Total Players: {props.playersSummary.length} </h3>
-                <h2>Total Budget: {props.playersSummary.reduce((total, salary) => total + salary.salary, 0)}</h2>
+                <h2>Total Budget: $ {props.playersSummary.reduce((total, salary) => total + salary.salary, 0)}</h2>
             </div>
           }
 
