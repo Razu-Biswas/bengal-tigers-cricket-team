@@ -3,10 +3,9 @@ import './PlayersSummary.css';
 
 const PlayersSummary = (props) => {
 
-
     return (
         <div className="summary-area">
-
+            <h3 className="all-summary">All Budget Summary</h3>
             <div>
                   {
                     props.playersSummary.map((added) => (
