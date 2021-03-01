@@ -7,7 +7,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './PlayersDetails.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faUserPlus } from '@fortawesome/free-solid-svg-icons';
+import { faCoffee, faUserPlus, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 
 const PlayersDetails = (props) => {
@@ -20,7 +20,7 @@ const PlayersDetails = (props) => {
            <div>
                  <h5> {name}</h5>
                  <h6>{gender}</h6>
-                 <p>{email}</p>
+                 <p> <FontAwesomeIcon icon={faEnvelope} /> {email}</p>
                  <h6> {country} </h6>
                  <h6> $ {salary}</h6>
                  {/* use fontawesome button icon (for extra bonus marks) */}

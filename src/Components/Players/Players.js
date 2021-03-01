@@ -14,7 +14,14 @@ const Players = () => {
 
     const [added, setAdded] = useState([])
     const addedPlayer = (add)=> {
-        setAdded([...added,add])
+        const checking = added.filter((check) => check.id === add.id)
+        if(checking.length === 0){
+            setAdded([...added,add])
+        }
+        else{
+            alert("Player Alredy Added, Please Select different Player.")
+        }
+        
     }
     return (
         <div  className="players-details">

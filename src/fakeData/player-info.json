@@ -1,7 +1,7 @@
 [{
     "id": 1,
     "name": "Liton Kumar Das",
-    "email": "litonkumardas01@gmail.com",
+    "email": "litonkumar01@gmail.com",
     "gender": "Male",
     "image": "https://p.imgci.com/db/PICTURES/CMS/302900/302995.jpg",
     "salary": 160000,
@@ -9,7 +9,7 @@
   }, {
       "id": 2,
     "name": "Masharafe Bin Mortaza",
-    "email": "masharafebin02@gmail.com",
+    "email": "masharafe02@gmail.com",
     "gender": "Male",
     "image": "https://p.imgci.com/db/PICTURES/CMS/302900/302999.jpg",
     "salary": 2000000,
@@ -17,7 +17,7 @@
   }, {
       "id": 3,
     "name": "Mehidy Hasan Miraz",
-    "email": "mehidyhasan03@gmail.com",
+    "email": "mehidy03@gmail.com",
     "gender": "Male",
     "image": "https://p.imgci.com/db/PICTURES/CMS/303000/303000.jpg",
     "salary": 180000,
@@ -25,7 +25,7 @@
   }, {
       "id": 4,
     "name": "Taskin Ahamed",
-    "email": "taskinahamec04@gmail.com",
+    "email": "taskinahamed04@gmail.com",
     "gender": "Male",
     "image": "https://p.imgci.com/db/PICTURES/CMS/303100/303169.jpg",
     "salary": 1900000,
@@ -41,7 +41,7 @@
   }, {
       "id": 6,
     "name": "Nazmul Hossain Shanto",
-    "email": "nazmulhossain06@gmail.com",
+    "email": "nazmulhos06@gmail.com",
     "gender": "Male",
     "image": "https://p.imgci.com/db/PICTURES/CMS/303200/303241.jpg",
     "salary": 150000,
@@ -65,7 +65,7 @@
   }, {
       "id": 9,
     "name": "Hasan Mahamud",
-    "email": "hasanmhamud09@gmail.com",
+    "email": "hasan09@gmail.com",
     "gender": "Male",
     "image": "https://p.imgci.com/db/PICTURES/CMS/303200/303249.jpg",
     "salary": 145000,
@@ -73,7 +73,7 @@
   }, {
       "id": 10,
     "name": "Tamim Iqbal Khan",
-    "email": "tamimiqbalkhan10@gmail.com",
+    "email": "tamimiqbal10@gmail.com",
     "gender": "Male",
     "image": "https://p.imgci.com/db/PICTURES/CMS/303100/303166.jpg",
     "salary": 210000,
@@ -89,7 +89,7 @@
   }, {
       "id": 12,
     "name": "Mohammad Ashraful",
-    "email": "mohammadashraful12@gmail.com",
+    "email": "mdashraful12@gmail.com",
     "gender": "Male",
     "image": "https://p.imgci.com/db/PICTURES/CMS/303100/303143.jpg",
     "salary": 175000,
@@ -97,7 +97,7 @@
   }, {
       "id": 13,
     "name": " Mohammad Junaid Siddique",
-    "email": "junaidsiddique13@gmail.com",
+    "email": "junaid13@gmail.com",
     "gender": "Genderfluid",
     "image": "https://p.imgci.com/db/PICTURES/CMS/202900/202933.1.jpg",
     "salary": 130000,
@@ -113,7 +113,7 @@
   }, {
       "id": 15,
     "name": "Mohammad Mithun",
-    "email": "mohammadmithun15@gmail.com",
+    "email": "mdmithun15@gmail.com",
     "gender": "Male",
     "image": "https://p.imgci.com/db/PICTURES/CMS/303100/303144.jpg",
     "salary": 225000,
@@ -121,7 +121,7 @@
   }, {
       "id": 16,
     "name": "Mustafizur Rahman",
-    "email": "mustafizurrahman16@gmail.com",
+    "email": "mustafizur16@gmail.com",
     "gender": "Male",
     "image": "https://p.imgci.com/db/PICTURES/CMS/263500/263578.jpg",
     "salary": 157000,
