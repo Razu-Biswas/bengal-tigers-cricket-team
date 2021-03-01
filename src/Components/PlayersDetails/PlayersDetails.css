@@ -2,9 +2,19 @@
     border: 1 px solid gray;
 }
 .button{
-    background-color:rgb(88, 4, 88);
+    background-color: goldenrod;
     color: white;
     border-radius: 10px;
     width: 120px;
+    border: 1px solid yellowgreen;
+    height:40px
     
+}
+.player-style{
+    color:rgb(124, 113, 11);
+}
+.player-details img{
+    border: 2px solid gray;
+    margin-top: 30px;
+    border-radius: 10px;
 }

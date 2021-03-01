@@ -17,10 +17,10 @@ const PlayersDetails = (props) => {
             <div>
                 <img src={image} alt="..."/> 
             </div>
-           <div>
-                 <h1>Name: {name}</h1>
-                <h2>Country: {country} </h2>
-                 <h3>Salary: {salary}</h3>
+           <div className="player-style">
+                 <h4>Name: {name}</h4>
+                <h5>Country: {country} </h5>
+                 <h5>Salary: {salary}</h5>
                  {/* use fontawesome button icon (for extra bonus marks) */}
                  <button
                    className="button"  
